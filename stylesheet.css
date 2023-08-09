@@ -1,0 +1,125 @@
+html {
+overflow: scroll;
+ overflow-x: hidden;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: #080808; /* #576166; */
+color:white;
+font-family:sans-sarif;
+}
+::-webkit-scrollbar {
+	width: 0px;  /* Remove scrollbar space */
+	background: transparent;  /* Optional: just make scrollbar invisible */
+}
+body {
+margin: 0;
+overflow: hidden;
+}
+#case_image {
+	position: relative;
+	width: 800px;
+	height: 800px;
+}
+.background {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.foreground_full {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.child_elem {
+	float: left;
+	padding: 20px;
+}
+#boulder_img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#zephyr_img {
+	position: absolute;
+	top: 0px;
+	left: 225px;
+}
+#cascade_img {
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+#hive_img {
+	position: absolute;
+	top: 0px;
+	left: 550px;
+}
+#thunder_img {
+	position: absolute;
+	top: 225px;
+	left: 0px;
+}
+#plain_img {
+	position: absolute;
+	top: 225px;
+	left: 250px;
+}
+#rainbow_img {
+	position: absolute;
+	top: 225px;
+	left: 410px;
+}
+#fog_img {
+	position: absolute;
+	top: 225px;
+	left: 590px;
+}
+#soul_img {
+	position: absolute;
+	top: 400px;
+	left: 0px;
+}
+#storm_img {
+	position: absolute;
+	top: 400px;
+	left: 200px;
+}
+#mineral_img {
+	position: absolute;
+	top: 400px;
+	left: 400px;
+}
+#marsh_img {
+	position: absolute;
+	top: 400px;
+	left: 550px;
+}
+#volcano_img {
+	position: absolute;
+	top: 577px;
+	left: 0px;
+}
+#glacier_img {
+	position: absolute;
+	top: 577px;
+	left: 190px;
+}
+#earth_img {
+	position: absolute;
+	top: 577px;
+	left: 330px;
+}
+#rising_img {
+	position: absolute;
+	top: 577px;
+	left: 470px;
+}
+#gary_img {
+	position: absolute;
+	top: 577px;
+	left: 590px;
+}
