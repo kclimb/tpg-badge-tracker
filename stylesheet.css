@@ -29,7 +29,17 @@ overflow: hidden;
 	top: 0px;
 	left: 0px;
 }
-.foreground_full {
+#ash_background_img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#brock_background_img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#misty_background_img {
 	position: absolute;
 	top: 0px;
 	left: 0px;

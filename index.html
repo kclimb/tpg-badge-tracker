@@ -10,24 +10,26 @@
 		<div id="case_image_and_settings" class="tracker_container">
             <div id = "case_image" class="child_elem">
                 <img src="./images/badge_case_empty 800x763.png" id="case_background" class="background" width="800" height="763"></img>
-                <img src="./images/badge_case_full 800x763.jpg" id="case_full_test_img" class="foreground_full" width="800" height="763" style="visibility: hidden;"></img>
-                <img src="./images/boulder_225x225.jpg" id="boulder_img" class="foreground" width="225" height="225" style="visibility: hidden;"></img>
-                <img src="./images/zephyr_175x225.jpg" id="zephyr_img" class="foreground" width="175" height="225" style="visibility: hidden;"></img>
-                <img src="./images/cascade_150x225.jpg" id="cascade_img" class="foreground" width="150" height="225" style="visibility: hidden;"></img>
-                <img src="./images/hive 250x225.jpg" id="hive_img" class="foreground" width="250" height="225" style="visibility: hidden;"></img>
-                <img src="./images/thunder_250x175.jpg" id="thunder_img" class="foreground" width="250" height="175" style="visibility: hidden;"></img>
-                <img src="./images/plain_160x175.jpg" id="plain_img" class="foreground" width="160" height="175" style="visibility: hidden;"></img>
-                <img src="./images/rainbow_180x175.jpg" id="rainbow_img" class="foreground" width="180" height="175" style="visibility: hidden;"></img>
-                <img src="./images/fog_210x175.jpg" id="fog_img" class="foreground" width="210" height="175" style="visibility: hidden;"></img>
-                <img src="./images/soul_200x177.jpg" id="soul_img" class="foreground" width="200" height="177" style="visibility: hidden;"></img>
-                <img src="./images/storm_200x177.jpg" id="storm_img" class="foreground" width="200" height="177" style="visibility: hidden;"></img>
-                <img src="./images/mineral_150x177.jpg" id="mineral_img" class="foreground" width="150" height="177" style="visibility: hidden;"></img>
-                <img src="./images/marsh_250x177.jpg" id="marsh_img" class="foreground" width="250" height="177" style="visibility: hidden;"></img>
-                <img src="./images/volcano_190x186.jpg" id="volcano_img" class="foreground" width="190" height="186" style="visibility: hidden;"></img>
-                <img src="./images/glacier_140x186.jpg" id="glacier_img" class="foreground" width="140" height="186" style="visibility: hidden;"></img>
-                <img src="./images/earth_140x186.jpg" id="earth_img" class="foreground" width="140" height="186" style="visibility: hidden;"></img>
-                <img src="./images/rising_120x186.jpg" id="rising_img" class="foreground" width="120" height="186" style="visibility: hidden;"></img>
-                <img src="./images/gary_210x186.jpg" id="gary_img" class="foreground" width="210" height="186" style="visibility: hidden;"></img>
+                <img src="./images/ash_tracker_transparency 800x763.png" id = "ash_background_img" class="teamlayer" width="800" height="763" style="visibility: hidden;"></img>
+                <img src="./images/brock_tracker_transparency 800x763.png" id = "brock_background_img" class="teamlayer" width="800" height="763" style="visibility: hidden;"></img>
+                <img src="./images/misty_tracker_transparency 800x763.png" id = "misty_background_img" class="teamlayer" width="800" height="763" style="visibility: hidden;"></img>
+                <img src="./images/boulder_225x225.png" id="boulder_img" class="badgelayer" width="225" height="225" style="visibility: hidden;"></img>
+                <img src="./images/zephyr_175x225.png" id="zephyr_img" class="badgelayer" width="175" height="225" style="visibility: hidden;"></img>
+                <img src="./images/cascade_150x225.png" id="cascade_img" class="badgelayer" width="150" height="225" style="visibility: hidden;"></img>
+                <img src="./images/hive_250x225.png" id="hive_img" class="badgelayer" width="250" height="225" style="visibility: hidden;"></img>
+                <img src="./images/thunder_250x175.png" id="thunder_img" class="badgelayer" width="250" height="175" style="visibility: hidden;"></img>
+                <img src="./images/plain_160x175.png" id="plain_img" class="badgelayer" width="160" height="175" style="visibility: hidden;"></img>
+                <img src="./images/rainbow_180x175.png" id="rainbow_img" class="badgelayer" width="180" height="175" style="visibility: hidden;"></img>
+                <img src="./images/fog_210x175.png" id="fog_img" class="badgelayer" width="210" height="175" style="visibility: hidden;"></img>
+                <img src="./images/soul_200x177.png" id="soul_img" class="badgelayer" width="200" height="177" style="visibility: hidden;"></img>
+                <img src="./images/storm_200x177.png" id="storm_img" class="badgelayer" width="200" height="177" style="visibility: hidden;"></img>
+                <img src="./images/mineral_150x177.png" id="mineral_img" class="badgelayer" width="150" height="177" style="visibility: hidden;"></img>
+                <img src="./images/marsh_250x177.png" id="marsh_img" class="badgelayer" width="250" height="177" style="visibility: hidden;"></img>
+                <img src="./images/volcano_190x186.png" id="volcano_img" class="badgelayer" width="190" height="186" style="visibility: hidden;"></img>
+                <img src="./images/glacier_140x186.png" id="glacier_img" class="badgelayer" width="140" height="186" style="visibility: hidden;"></img>
+                <img src="./images/earth_140x186.png" id="earth_img" class="badgelayer" width="140" height="186" style="visibility: hidden;"></img>
+                <img src="./images/rising_120x186.png" id="rising_img" class="badgelayer" width="120" height="186" style="visibility: hidden;"></img>
+                <img src="./images/gary_210x186.png" id="gary_img" class="badgelayer" width="210" height="186" style="visibility: hidden;"></img>
             </div>    
             <div id="settings_column" class="child_elem">
                 <input type="checkbox" id="boulder_checkbox" name="boulder_checkbox" value="false">
@@ -64,7 +66,16 @@
                 <label for="rising_checkbox">Rising Badge</label><br>
                 <input type="checkbox" id="gary_checkbox" name="gary_checkbox" value="false">
                 <label for="gary_checkbox">Gary Badge</label><br><br>
-                Nifty badge case image/layout by Darkenforcer6669!
+                <input type="radio" id="ash_radio" name="team_radio" value="false">
+                <label for="ash_radio">Team Ash</label><br>
+                <input type="radio" id="brock_radio" name="team_radio" value="false">
+                <label for="brock_radio">Team Brock</label><br>
+                <input type="radio" id="misty_radio" name="team_radio" value="false">
+                <label for="misty_radio">Team Misty</label><br>
+                <input type="radio" id="none_radio" name="team_radio" value="false">
+                <label for="none_radio">Clear</label><br><br>
+                Nifty badge case image/layout by Darkenforcer6669!<br>
+                Nifty trainer backgrounds and badge transparencies by Granfalegion!
             </div>       
 		</div>
 		
